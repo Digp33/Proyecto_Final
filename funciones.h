@@ -1,16 +1,18 @@
+#define G 3
 #define N 10
-#define M 10
-#define L 3
-int triangulo(int x);
-int cuadrados(int x);
-int conversiones(int x);
-void leer_matriz(int A[N][M], int F, int C);
-void imprimir_matriz(int A[N][M],int F,int C);
-int matriz1(int x);
-void multiplicar(int A[N][M],int B[N][M],int Re[N][M],int f1,int cf,int c2);
-int matriz2(int x);
-int factorial(int x);
-void transpuesta(int A[L][L],int B[L][L],int espacio);
-int matriz3(int x);
-void leer_matriz_Tra(int A[L][L], int F, int C);
-void imprimir_matriz_Tra(int A[L][L],int F,int C);
+
+int funTriangulo(int x);
+int funCuadrilateros(int x);
+int funConversion(int x);
+int funFactorial(int x) ;
+void leer_matriz(int datoUno[N][N], int F, int C);
+void imprimir_matriz(int datoUno[N][N],int F,int C);
+void multiplicar(int datoUno[N][N],int datoDos[N][N],int resultadoM[N][N],int f1,int cf,int c2);
+void suma_matriz(int datoUno[N][N],int datoDos[N][N],int matrizResultado[N][N],int F);
+void transpuesta(int datoUnoT[G][G],int datoDosT[G][G],int espacio);
+void leer_matrizTrans(int datoUnoT[G][G], int F, int C);
+void imprimir_matrizTrans(int datoUnoT[G][G],int F,int C);
+int funSumaMatriz(int x);
+int funMultiMatriz(int x);
+int funTransMatriz(int x);
+int funSalario(int x);
