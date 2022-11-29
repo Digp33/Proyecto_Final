@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "FuncionesR.h"
+#include "funciones.h"
 int main(int argc, char *argv[]) {
 	int selec;
 	int val;
