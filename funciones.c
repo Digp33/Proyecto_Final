@@ -60,7 +60,7 @@ void funTriangulo(int x) {
 			break;
 		}
 	}while (selec!=3);
-	return 0;
+	
 }
 
 //Inicialización de la funcion Cuadrados
@@ -142,7 +142,7 @@ void funCuadrilateros(int x) {
 			break;
 		}
 	}while(selec!=6);
-	return 0;
+	
 }
 
 //Se inicia con la funcion de conversiones
@@ -207,7 +207,7 @@ void funConversion(int x) {
 		}
 
 	}while(selec!=4);
-	return 0;
+	
 }
 
 void funFactorial(int x) {
@@ -227,7 +227,7 @@ void funFactorial(int x) {
 			printf("\nEl Valor del factorial de %d es: %d\n",nFac,reFac );
 		}
 	
-	return 0;
+	
 }
 
 //Se pone la cabecera para que el main sepa de las funciones que se vayan a implementar y no haya conflicto
@@ -321,7 +321,6 @@ void funMultiMatriz(int x)
 		break;
 	}
 	
-	return 0;
 }
 
 void funTransMatriz(int x) {
@@ -334,7 +333,7 @@ void funTransMatriz(int x) {
 	imprimir_matrizTrans(datoUno,G,G);
 	printf("Ga matriz transpuesta es:\n");
 	imprimir_matrizTrans(datoDos,G,G);
-	return 0;
+	
 }
 
 //Funcion para obtener la transpuesta
@@ -457,6 +456,6 @@ void funSalario(int x)
 	}else
 		//si no, solo le indica que tiene un buen sueldo
 		printf("\nTiene un buen sueldo");
-	return 0;
+	
 }
 
