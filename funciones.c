@@ -262,7 +262,7 @@ void funSumaMatriz(int x)
 	printf("Matriz resultado\n");
 	imprimir_matriz(matrizResultado,F,F);
 
-	return 0;
+	
 }
 
 //se declara el main
@@ -372,7 +372,7 @@ void leer_matriz(int datoUno[N][N], int F, int C)
 			printf("Ingresa el valor de [%d][%d]\n",i,j );
 			scanf("%d",&datoUno[i][j]);
 		}
-	}
+}
 
 //Nos permite imprimir cualquier matriz de la cual se ingresen los datos
 void imprimir_matriz(int datoUno[N][N],int F,int C)
