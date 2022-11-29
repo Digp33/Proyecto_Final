@@ -5,7 +5,7 @@
 #define G 3
 #define N 10
 
-int funTriangulo(int x) {
+void funTriangulo(int x) {
 	//Declaramos las variables a utilizar tanto para que el usuario digite los datos como para los resultados
 	int sideA,sideB,sideC;
 	int altura;
@@ -64,7 +64,7 @@ int funTriangulo(int x) {
 }
 
 //Inicialización de la funcion Cuadrados
-int funCuadrilateros(int x) {
+void funCuadrilateros(int x) {
 	/*Se declaran las variables, enteras para los datos de entrada del usuario,  flotantes para los valores a obtener
 	 puesto que podría haber divisiones que hagan que el resultado tenga punto decimal*/
 	int ladoCua,ladoRe,ladoTra;
@@ -146,7 +146,7 @@ int funCuadrilateros(int x) {
 }
 
 //Se inicia con la funcion de conversiones
-int funConversion(int x) {
+void funConversion(int x) {
 	//Se crean las variables de entrada y de salida, para esta ocacion se solicitan float ya que pueden tener decimales
 	float celciusG,farenheitG,kelvinG;
 	float resultadoCelcius,resultadoFarenheit,resultadoKelvin;
@@ -210,7 +210,7 @@ int funConversion(int x) {
 	return 0;
 }
 
-int funFactorial(int x) {
+void funFactorial(int x) {
 	int nFac;
 	int reFac=1;
 	int i;
@@ -239,7 +239,7 @@ void transpuesta(int datoUnoT[G][G],int datoDosT[G][G],int espacio);
 void leer_matrizTrans(int datoUno[G][G], int F, int C);
 void imprimir_matrizTrans(int datoUno[G][G],int F,int C);
 //se inicializa el main de matrices uno
-int funSumaMatriz(int x) 
+void funSumaMatriz(int x) 
 {
 	//se definen las variables enteras y los arreglos
 	int F,C, i,j;
@@ -266,7 +266,7 @@ int funSumaMatriz(int x)
 }
 
 //se declara el main
-int funMultiMatriz(int x) 
+void funMultiMatriz(int x) 
 {
 	//se declaran las variables enteras y de topo matriz a utilizarse
 	int F,C,L,P, i,j;
@@ -324,7 +324,7 @@ int funMultiMatriz(int x)
 	return 0;
 }
 
-int funTransMatriz(int x) {
+void funTransMatriz(int x) {
 	int datoUno[G][G],datoDos[G][G],i,j;
 	printf("Este programa da el resultado de una matriz transpuesta de 3x3\n");
 	printf("Por favor, ingrese la matriz:\n");
@@ -427,7 +427,7 @@ el costo por hora y la tasa de IVA agregado del 16% sobre el
  a 10,000 mxn, agregar un bono del 5%*/
 //se declaran las librerías
 //Se inicia el main
-int funSalario(int x) 
+void funSalario(int x) 
 {
 	//Se declaran las variables 
 	int horas;
