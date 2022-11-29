@@ -1,7 +1,7 @@
 //Se incluyen librerias y se define una constante a utilizarse
 #include <stdio.h>
 #include <stdlib.h>
-#include "FuncionesR.h"
+#include "funciones.h"
 #define G 3
 #define N 10
 
